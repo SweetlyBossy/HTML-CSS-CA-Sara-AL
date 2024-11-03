@@ -1,0 +1,122 @@
+.mw3e-3 {
+    width: 100rem;
+    height: 35rem;
+    border-radius: 7.125rem;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.Mw-logo {
+    width: 30%;
+    position: absolute;
+    left: 70%;
+    z-index: 1000;
+
+
+}
+
+.MW-3 {
+    width: 40%;
+    border-radius: 10%;
+    margin: 0 2rem;
+
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+@media (max-width: 1440px) and (min-width: 1024px) {
+    .mw3e-3 {
+        width: 60rem;
+        height: 20rem;
+    }
+
+    .Mw-logo {
+        width: 30%;
+        position: absolute;
+        left: 50%;
+        z-index: 1000;
+
+
+    }
+
+    .MW-3 {
+        width: 40%;
+        border-radius: 10%;
+        margin: 0 2rem;
+
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 430px) {
+    .mw3e-3 {
+        width: 45rem;
+        height: 20rem;
+        border-radius: 6.125rem;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .Mw-logo {
+        width: 30%;
+        position: absolute;
+        left: 50%;
+        z-index: 1000;
+    }
+
+    .MW-3 {
+        width: 40%;
+        border-radius: 10%;
+        margin: 0 2rem;
+    }
+
+    video {
+        width: 100%;
+        display: flex;
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 430px) and (min-width:350px) {
+    .mw3e-3 {
+        display: flex;
+        width: 20rem;
+        height: 10rem;
+        padding: 6px 6px 3px;
+
+    }
+
+    .Mw-logo {
+        width: 30%;
+        border-radius: 20rem;
+        position: absolute;
+        left: 10%;
+    }
+
+    .MW-3 {
+        width: 20rem;
+        height: 10rem;
+        border-radius: 10%;
+        display: flex;
+        margin: 10px auto;
+
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+}

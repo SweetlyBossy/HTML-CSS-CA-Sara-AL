@@ -1,0 +1,101 @@
+.jobi-3 {
+    width: 80rem;
+    height: 35rem;
+    border-radius: 7.125rem;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.star-wars-character-image {
+    width: 30%;
+    position: absolute;
+    left: 70%;
+    z-index: 1000;
+
+
+}
+
+.explore-picture {
+    width: 60%;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    display: block;
+    float: right;
+
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+@media (max-width: 1440px) and (min-width: 1024px) {
+    .jobi-3 {
+        width: 60rem;
+        height: 20rem;
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 430px) {
+    .jobi-3 {
+        width: 40rem;
+        height: 20rem;
+        border-radius: 7.125rem;
+        display: flex;
+        margin: 0 auto;
+
+    }
+
+    .star-wars-character-image {
+        width: 30%;
+        position: absolute;
+        left: 70%;
+        z-index: 1000;
+
+
+    }
+
+    .explore-picture {
+        width: 100%;
+        border-radius: 4%;
+        margin-bottom: 10px;
+        display: flex;
+        float: right;
+
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media (max-width: 430px) and (min-width:350px) {
+    .jobi-3 {
+        display: flex;
+        margin: auto;
+        width: 20rem;
+        height: 10rem;
+
+    }
+
+    .explore-picture {
+        width: 100%;
+        height: 10rem;
+        border-radius: 20%;
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+}

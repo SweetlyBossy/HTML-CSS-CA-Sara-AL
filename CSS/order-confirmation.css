@@ -1,0 +1,508 @@
+body {
+    color: white;
+    font-family: sans-serif;
+}
+
+.order-confirmation-container {
+    display: flex;
+    justify-content: center;
+}
+
+.order-confirmation-title {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.list-overview {
+    list-style: none;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.order-date,
+.billing-info {
+    margin-top: 3rem;
+}
+
+.list-overview-games {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+.thank-you-part {
+    list-style: none;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 4rem;
+}
+
+.active-btns {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.browsing-btn,
+.get-activation-code-btn {
+    width: 12rem;
+    height: 3rem;
+    margin: 1rem;
+    background-color: transparent;
+    border: outset red 3px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.browsing-btn:hover {
+    background-color: lightskyblue;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+.get-activation-code-btn:hover {
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+main {
+    margin-bottom: 4.5rem;
+}
+
+@media (max-width: 1920px) and (min-width: 1440px) {
+    body {
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .order-confirmation-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .order-confirmation-title {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .list-overview {
+        list-style: none;
+        font-size: 2.4rem;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .order-date,
+    .billing-info {
+        margin-top: 3rem;
+    }
+
+    .list-overview-games {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        list-style: none;
+        margin-top: 1rem;
+        font-style: italic;
+        font-size: 2.4rem;
+    }
+
+    .thank-you-part {
+        list-style: none;
+        font-size: 2.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-right: 4rem;
+    }
+
+    .active-btns {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .browsing-btn,
+    .get-activation-code-btn {
+        width: 15rem;
+        height: 8rem;
+        margin: 4rem;
+        background-color: transparent;
+        border: outset red 3px;
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .browsing-btn:hover {
+        background-color: lightskyblue;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    .get-activation-code-btn:hover {
+        background-color: greenyellow;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    main {
+        margin-bottom: 20.5rem;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1024px) {
+    body {
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .order-confirmation-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .order-confirmation-title {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .list-overview {
+        list-style: none;
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .order-date,
+    .billing-info {
+        margin-top: 3rem;
+    }
+
+    .list-overview-games {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        list-style: none;
+        margin-top: 2rem;
+        font-style: italic;
+    }
+
+    .thank-you-part {
+        list-style: none;
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-right: 4rem;
+    }
+
+    .active-btns {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .browsing-btn,
+    .get-activation-code-btn {
+        width: 12rem;
+        height: 3rem;
+        margin: 1rem;
+        background-color: transparent;
+        border: outset red 3px;
+        font-size: 1.2rem;
+        color: white;
+    }
+
+    .browsing-btn:hover {
+        background-color: lightskyblue;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    .get-activation-code-btn:hover {
+        background-color: greenyellow;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    main {
+        margin-bottom: 15.5rem;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    body {
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .order-confirmation-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .order-confirmation-title {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .list-overview {
+        list-style: none;
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .order-date,
+    .billing-info {
+        margin-top: 3rem;
+    }
+
+    .list-overview-games {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        list-style: none;
+        margin-top: 2rem;
+        font-style: italic;
+    }
+
+    .thank-you-part {
+        list-style: none;
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-right: 4rem;
+    }
+
+    .active-btns {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .browsing-btn,
+    .get-activation-code-btn {
+        width: 12rem;
+        height: 3rem;
+        margin: 1rem;
+        background-color: transparent;
+        border: outset red 3px;
+        font-size: 1.2rem;
+        color: white;
+    }
+
+    .browsing-btn:hover {
+        background-color: lightskyblue;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    .get-activation-code-btn:hover {
+        background-color: greenyellow;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    main {
+        margin-bottom: 24.5rem;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 430px) {
+    body {
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .order-confirmation-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .order-confirmation-title {
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .list-overview {
+        list-style: none;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .order-date,
+    .billing-info {
+        margin-top: 1rem;
+    }
+
+    .list-overview-games {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+        margin-top: 0.20rem;
+        font-style: italic;
+    }
+
+    .thank-you-part {
+        list-style: none;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-right: 2rem;
+    }
+
+    .active-btns {
+        display: flex;
+        justify-content: center;
+        gap: 0.10rem;
+    }
+
+    .browsing-btn,
+    .get-activation-code-btn {
+        width: 10rem;
+        height: 3rem;
+        margin: 1rem;
+        background-color: transparent;
+        border: outset red 3px;
+        font-size: 1.0rem;
+        color: white;
+    }
+
+    .browsing-btn:hover {
+        background-color: lightskyblue;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    .get-activation-code-btn:hover {
+        background-color: greenyellow;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    main {
+        margin-bottom: 15.5rem;
+    }
+}
+
+@media (max-width: 350px) and (min-width:1px) {
+    body {
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .order-confirmation-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .order-confirmation-title {
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .list-overview {
+        list-style: none;
+        font-size: 0.7rem;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+    }
+
+    .order-date,
+    .billing-info {
+        margin-top: 2rem;
+    }
+
+    .list-overview-games {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+        margin-top: 1rem;
+        font-style: italic;
+    }
+
+    .thank-you-part {
+        list-style: none;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-right: 1rem;
+    }
+
+    .active-btns {
+        display: flex;
+        justify-content: center;
+        gap: 0rem;
+    }
+
+    .browsing-btn,
+    .get-activation-code-btn {
+        width: 8rem;
+        height: 2rem;
+        margin: 2rem;
+        background-color: transparent;
+        border: outset red 3px;
+        font-size: 0.7rem;
+        color: white;
+    }
+
+    .browsing-btn:hover {
+        background-color: lightskyblue;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    .get-activation-code-btn:hover {
+        background-color: greenyellow;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    main {
+        margin-bottom: 15.5rem;
+    }
+}

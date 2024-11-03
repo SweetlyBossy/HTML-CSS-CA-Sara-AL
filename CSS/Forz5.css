@@ -1,0 +1,93 @@
+.Forza5 {
+    width: 100rem;
+    height: 35rem;
+    border-radius: 7.125rem;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.Forza_5 {
+    width: 100rem;
+    height: 40rem;
+    border-radius: 10%;
+    margin: 20px auto;
+    display: block;
+
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+@media (max-width: 1440px) and (min-width: 1024px) {
+    .Forza5 {
+        width: 60rem;
+        height: 20rem;
+    }
+
+    .Forza_5 {
+        width: 60rem;
+        height: 20rem;
+        border-radius: 10%;
+        margin: 10px auto;
+        display: block;
+
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 430px) {
+    .Forza5 {
+        width: 40rem;
+        height: 20rem;
+        border-radius: 7.125rem;
+        display: flex;
+        margin: 0 auto;
+
+    }
+
+    .Forza_5 {
+        width: 40rem;
+        height: 20rem;
+        border-radius: 7.125rem;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media (max-width: 430px) and (min-width:350px) {
+    .Forza5 {
+        display: flex;
+        width: 20rem;
+        height: 10rem;
+        padding: 6px 6px 3px;
+
+    }
+
+    .Forza_5 {
+        width: 20rem;
+        height: 10rem;
+        border-radius: 10%;
+        display: flex;
+        margin: 10px auto;
+
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
